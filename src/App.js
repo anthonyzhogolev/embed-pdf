@@ -76,7 +76,7 @@ function usePdf() {
 function App() {
   const { link, download, preview } = usePdf();
 
-  const showPreview = false && link !== null;
+  const showPreview = link !== null;
 
   const style = {
     width: "200px",
