@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/embed-pdf/static/css/main.a617e044.chunk.css",
+    "main.js": "/embed-pdf/static/js/main.d2c56290.chunk.js",
+    "main.js.map": "/embed-pdf/static/js/main.d2c56290.chunk.js.map",
+    "runtime-main.js": "/embed-pdf/static/js/runtime-main.b87d67ea.js",
+    "runtime-main.js.map": "/embed-pdf/static/js/runtime-main.b87d67ea.js.map",
+    "static/js/2.32e568ba.chunk.js": "/embed-pdf/static/js/2.32e568ba.chunk.js",
+    "static/js/2.32e568ba.chunk.js.map": "/embed-pdf/static/js/2.32e568ba.chunk.js.map",
+    "static/js/3.c266ff6a.chunk.js": "/embed-pdf/static/js/3.c266ff6a.chunk.js",
+    "static/js/3.c266ff6a.chunk.js.map": "/embed-pdf/static/js/3.c266ff6a.chunk.js.map",
+    "index.html": "/embed-pdf/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/embed-pdf/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.32e568ba.chunk.js.LICENSE.txt": "/embed-pdf/static/js/2.32e568ba.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b87d67ea.js",
+    "static/js/2.32e568ba.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.d2c56290.chunk.js"
+  ]
+}
