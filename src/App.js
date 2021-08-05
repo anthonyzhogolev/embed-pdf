@@ -68,6 +68,7 @@ function usePdf() {
       saveDocument({ link, name: "test-pdf", fileFormat: "pdf" });
     },
     preview: () => {
+      console.log("preview");
       openDocument({ link, name: "test-pdf", fileFormat: "pdf" });
     },
   };
@@ -79,12 +80,18 @@ function App() {
   const showPreview = link !== null;
 
   const style = {
+    display: "flex",
+    cursor: "pointer",
     width: "200px",
     height: "200px",
   };
   return (
     <>
-      <div onClick={preview} style={{ cursor: "pointer" }}>
+      <div
+        id="wrapper"
+        onClick={preview}
+        style={{position: "relative",display:"inline-flex",}}
+      >
         {showPreview ? (
           <object data={link} style={style} type="application/pdf">
             <param name="data" value={link} />
@@ -93,8 +100,19 @@ function App() {
         ) : (
           <img src={icon} className="icon" alt="logo" />
         )}
+        <div
+          id="layout"
+          style={{
+            position: "absolute",
+            top: 0,
+            bottom: 0,
+            right: 0,
+            left: 0,
+            cursor: "pointer",
+          }}
+        />
       </div>
-      <div onClick={download}>Download PDF</div>
+      <div style={{cursor: "pointer"}} onClick={download}>Download PDF</div>
     </>
   );
 }
